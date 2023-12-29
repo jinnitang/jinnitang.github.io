@@ -1,0 +1,30 @@
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Footer settings */
+footer {
+    text-align: center;
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px;
+    bottom: 0;
+}
+
+/* Show dropdown menu options on hover */
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Show dropdown menu options on hover */
+.work-info {
+    display: flex;
+    justify-content: space-between;
+    /* Optional: Add other styles like padding, margin, etc. as needed */
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+}
